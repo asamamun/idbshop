@@ -1,0 +1,55 @@
+﻿cod = cash on delivery
+chk = cheque
+ccr = credit card
+dcr = debit card
+bks = bKash
+ppl = payPal
+
+'cod','chk','ccr','dcr','bks','ppl'
+
+order:
+orderid
+userid
+currency
+total
+paymentmethod: 'cod','chk','ccr','dcr','bks','ppl'
+
+products: array
+tax:
+coupon
+discount
+
+customerip
+customer_user_agent
+
+cart_hash
+cart_discount
+edit_lock
+
+currency:tk
+billing_first_name
+billing_last_name
+billing_company
+billing_email
+billing_phone
+billing_country
+billing_address_1
+billing_address_2
+billing_city
+billing_state
+billing_postcode
+
+shipping_first_name
+shipping_last_name
+shipping_company
+shipping_email
+shipping_phone
+shipping_country
+shipping_address_1
+shipping_address_2
+shipping_city
+shipping_state
+shipping_postcode
+
+
+

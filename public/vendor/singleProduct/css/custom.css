@@ -1,0 +1,150 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.shop-profile img.shop-image-lg {
+    z-index: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.shop-image-profile {
+    margin: -60px 10px 0px 50px;
+    z-index: 9;
+    width: 20%;
+}
+
+.shop-profile-text {
+    color: #999;
+}
+
+@media (max-width:768px) {
+    .shop-profile-text > h2 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .shop-image-profile {
+        margin: -45px 10px 0px 25px;
+        z-index: 9;
+        width: 20%;
+    }
+}
+
+.shop-details {
+    font-size: 14px;
+}
+
+
+/* ==========================================================================
+    Single shop design
+   ========================================================================== */
+
+.shop-wrapper-sm {
+    box-shadow: 0px 0px 25px 0px #ddd;
+}
+
+.shop-content-sm {
+    background: url(../images/ba1.jpg) no-repeat;
+}
+
+.shop-background-sm {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.shop-profile-text-sm {
+    padding: 30px;
+    color: #fff;
+}
+
+.shop-image-profile-sm {
+    margin: -21% 0 0 70%;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.shop-footer-sm {
+    background: #f7fbfc;
+    position: relative;
+    padding: 15px 20px;
+    border-top: 1px solid #eee;
+}
+
+.shop-btn {
+    margin: -15% 0 1% 7%;
+    background-color: #FDA30E;
+    z-index: 999;
+    position: relative;
+}
+
+.col-custom {
+    margin: 15px 0;
+}
+
+.filter-col {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .top_nav_right {
+        width: 21%;
+    }
+    .top_nav_left {
+        width: 79%;
+    }
+    .navbar-nav > li > a {
+        padding: 27px 4px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .top_nav_right {
+        width: 21%;
+    }
+    .top_nav_left {
+        width: 79%;
+    }
+    .navbar-nav > li > a {
+        padding: 19px 6px;
+    }
+    .contact-form2 input[type="email"] {
+        margin-left: 1.3%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+    .contact-form2 input[type="email"] {
+        margin-left: 1.2%;
+    }
+}
+
+.country {
+    width: 100%;
+    height: 36px;
+    margin: 15px 0;
+    border: 1px solid #E6E4E4;
+}
+
+.user-acount{ width:100%}
+.m-user{
+    padding: 20px;
+    border: 1px solid #d2d2d2;
+}
+.checkout-left .user-acount{ width:95%}
+.checkout-left .user-acount option{ font-size: 14px}
+.shipping,.billing{
+    font-size: 24px;
+    padding: 20px 0;
+    color:#FDA30E;
+    border-bottom: 2px solid #FDA30E;
+    margin-bottom: 20px;
+}
+.radio-inline{
+    padding-bottom: 5px;
+    font-size: 14px;
+}
